@@ -1,1 +1,1 @@
-Testes de ordenação
+Testes de algoritmo de ordenação
