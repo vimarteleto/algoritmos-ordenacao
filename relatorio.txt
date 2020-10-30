@@ -1,0 +1,83 @@
+bubbleSort:
+    1000:
+        Tempo de processamento: 82.980ms
+        Memória usada (MB): 99.52165985107422
+
+
+    25000: 
+        Tempo de processamento: 28427.912ms
+        Memória usada (MB): 100.1929702758789
+
+    100000:
+        Tempo de processamento: 672308.743ms
+        Memória usada (MB): 100.19454956054688
+
+
+    Total:
+        Tempo de processamento: 7699637.136ms
+        Memória usada (MB): 100.19464874267578
+
+____________________________________________
+
+mergeSort:
+    1000:
+        Tempo de processamento: 629.328ms
+        Memória usada (MB): 99.62518310546875
+
+
+    25000: 
+        Tempo de processamento: 121.883ms
+        Memória usada (MB): 109.53900146484375
+
+    100000:
+        Tempo de processamento: 244.408ms
+        Memória usada (MB): 101.9310073852539
+
+
+    Total:
+        Tempo de processamento: 617.888ms
+        Memória usada (MB): 46.88343048095703
+
+____________________________________________
+
+quickSort:
+    1000:
+        Tempo de processamento: 79.026ms
+        Memória usada (MB): 99.58602905273438
+
+
+    25000: 
+        Tempo de processamento: 100.568ms
+        Memória usada (MB): 101.81816101074219
+
+    100000:
+        Tempo de processamento: 202.756ms
+        Memória usada (MB): 102.01373291015625
+
+
+    Total:
+        Tempo de processamento: 478.140ms
+        Memória usada (MB): 103.511474609375
+
+____________________________________________
+
+selectionSort:
+    1000:
+        Tempo de processamento: 75.939ms
+        Memória usada (MB): 98.93560028076172
+
+
+    25000: 
+        Tempo de processamento: 9341.364ms
+        Memória usada (MB): 99.3173599243164
+
+    100000:
+        Tempo de processamento: 206623.989ms
+        Memória usada (MB): 99.31892395019531
+
+
+    Total:
+        Tempo de processamento: 1858651.950ms
+        Memória usada (MB): 99.31900787353516
+
+____________________________________________
