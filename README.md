@@ -1,3 +1,1 @@
-Testes de algoritmo de ordenação para disciplina Estrutura de Dados.
-Análise e Desenvolvimento de Sistemas
-FATEC Franca
+Testes de algoritmo de ordenação para disciplina Estrutura de Dados no curso de Análise e Desenvolvimento de Sistemas na FATEC Franca.
