@@ -21,7 +21,7 @@ ____________________________________________
 
 mergeSort:
     1000:
-        Tempo de processamento: 629.328ms
+        Tempo de processamento: 55.196ms
         Memória usada (MB): 99.62518310546875
 
 
