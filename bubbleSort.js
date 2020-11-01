@@ -46,3 +46,4 @@ console.timeEnd('Tempo de processamento')
 // Consumo de memória
 let memoria = process.memoryUsage().heapUsed / 1024 / 1024
 console.log('Memória usada (MB):', memoria)
+
