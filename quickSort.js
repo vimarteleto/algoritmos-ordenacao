@@ -20,9 +20,9 @@ function quickSort(vetor, fnComp, inicio = 0, fim = vetor.length - 1) {
 
 // Importação e divisão dos dados
 const testeTotal = require('./dados/covid-19.js')
-const teste1000 = testeTotal.slice(0, 999) // Subvetor com 1000 registros
-const teste25000 = testeTotal.slice(0, 24999) // Subvetor com 25000 registros
-const teste100000 = testeTotal.slice(0, 99999) // Subvetor com 100000 registros
+const teste1000 = testeTotal.slice(0, 1000) // Subvetor com 1000 registros
+const teste25000 = testeTotal.slice(0, 25000) // Subvetor com 25000 registros
+const teste100000 = testeTotal.slice(0, 10000) // Subvetor com 100000 registros
 
 vetorTeste = testeTotal // Subvetor a ser testado
 
