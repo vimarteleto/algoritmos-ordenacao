@@ -31,15 +31,13 @@ console.time('Tempo de processamento')
 
 // Ordenação por 'date', 'state' e 'city':
 quickSort(vetorTeste, (a, b) => {
-    if(a.date == b.date) {
-        if(a.state == b.state) {
+    if(a.date === b.date) {
+        if(a.state === b.state) {
             if(a.city > b.city) return true
         }
-        else if(a.state > b.state) return true
-        else return false
+        else return a.state > b.state;
     }
-    else if(a.date > b.date) return true
-    else return false
+    else return a.date > b.date;
 })
 console.log(vetorTeste)
 console.timeEnd('Tempo de processamento')

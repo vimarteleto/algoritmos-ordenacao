@@ -10,11 +10,12 @@ function selectionSort(vetor, fnComp) {
         return posMenor
     }
 
-    for(i = 0; i < vetor.length - 1; i++) {
+    let posMenor;
+    for (let i = 0; i < vetor.length - 1; i++) {
         posMenor = encontrarMenor(vetor, i + 1)
 
         // Troca de valores por desestruturação do vetor
-        if(fnComp(vetor[i], vetor[posMenor])) {
+        if (fnComp(vetor[i], vetor[posMenor])) {
             [vetor[posMenor], vetor[i]] = [vetor[i], vetor[posMenor]]
         }
     }
@@ -33,15 +34,13 @@ console.time('Tempo de processamento')
 
 // Ordenação por 'date', 'state' e 'city':
 selectionSort(vetorTeste, (a, b) => {
-    if(a.date == b.date) {
-        if(a.state == b.state) {
+    if(a.date === b.date) {
+        if(a.state === b.state) {
             if(a.city > b.city) return true
         }
-        else if(a.state > b.state) return true
-        else return false
+        else return a.state > b.state;
     }
-    else if(a.date > b.date) return true
-    else return false
+    else return a.date > b.date;
 })
 console.log(vetorTeste)
 console.timeEnd('Tempo de processamento')
